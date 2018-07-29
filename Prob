@@ -1,0 +1,13 @@
+def prob(list, k):
+    result = []  
+    for i in range(len(array)-1):  
+        for j in array[i + 1:]: 
+            result.append(array[i] + j) 
+
+    if k in result:  
+        return True
+    else:
+        return False
+
+
+q = prob(list = [10, 15, 3, 7], k = 17)

@@ -1,0 +1,12 @@
+def Goole1(list,k):
+    for i in range(len(list)-1):
+        for j in range(i + 1,len(list)):
+            if myList[i] + myList[j] == k:
+                return True
+    return False            
+
+
+myList=[10,15,3,7]
+k=17
+q = Goole1(myList,k) 
+print(q)
